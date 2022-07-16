@@ -100,3 +100,42 @@ main { padding-top: 50px;}
     background-color: #8B4000;
     color:bisque;
 }
+
+label {
+    display:block;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    
+}
+
+.form-input {
+font-size: 12pt;
+margin-bottom: 1.5em;
+padding: 1em;
+font-weight: 400;
+width: 100%;
+border: 2px solid #8B4000;
+margin-left: 10em;
+margin-right: 10em;
+}
+
+[type="submit"] {
+    background:#003153;
+    color:#8B4000;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight:700;
+    letter-spacing:1px;
+    padding: 0.5em;
+    margin-left:10em;
+    margin-right:10em;
+}
+
+.error{
+    border-color: red;
+}
+.error-message{
+    color: red;
+    margin: -1em 0 1.5em;
+
+}
