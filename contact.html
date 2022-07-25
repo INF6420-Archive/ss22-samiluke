@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form">
     <title>Sami Luke's Portfolio </title>
     <link rel="stylesheet" href="Style.css">
 </head>
@@ -22,7 +23,7 @@
 <main>
     <form action="https://formspree.io/f/xbjwvejg" method="post" class="validate">
         <label for="name">Name</label>
-        <input type="text" name="name" class="form-input">
+        <input type="text" name="name" id="name" class="form-input" required>
         <label for="email">Email</label>
         <input name="Email" id="email" type="email" class="form-input" required>
         <label for="message">Message</label>
